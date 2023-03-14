@@ -14,4 +14,4 @@ app.register_blueprint(api_blueprint)
 
 
 if __name__ == "__main__":
-    app.run(Debug=True)
+    app.run(host='0.0.0.0'Debug=True)
