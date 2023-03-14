@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Working Directory=/home/rusupov/Course-2
-ExecStart=/home/rusupov/Course-2/env/bin/python app.py
+ExecStart=/home/rusupov/Course-2/venv/bin/python app.py
 
 [Install]
 WantedBy=multi-user.target
