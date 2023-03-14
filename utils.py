@@ -48,5 +48,3 @@ def get_post_by_pk(pk):
         if pk == pk_f['pk']:
             return pk_f
 
-
-print(get_posts_by_user("larry"))
